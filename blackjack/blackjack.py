@@ -1,6 +1,5 @@
 
 from random import randint
-
 print("-----------")
 print("YOUR TURN")
 print("-----------")
@@ -150,17 +149,17 @@ elif hand_value1>21:
 print("-----------")
 print("GAME RESULT")
 print("-----------")
-RED="\033[91m"
-GREEN="\033[92m"
-RESET="\033[0m"
+red="\033[91m"
+green="\033[92m"
+reset="\033[0m"
 if hand_value>21:
-    print(RED+"Dealer wins!")
+    print(red+"Dealer wins!"+reset)
 elif hand_value1>21:
-    print(GREEN+"You win!"+RESET)
+    print(green+"You win!"+reset)
 elif hand_value>hand_value1:
-    print(GREEN+"You win!"+RESET)
+    print(green+"You win!"+reset)
 elif hand_value1>hand_value:
-    print(RED+"Dealer wins!"+RESET)
+    print(red+"Dealer wins!"+reset)
 else:
     print("Push.")
 
