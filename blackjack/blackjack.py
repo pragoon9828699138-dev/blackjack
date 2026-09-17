@@ -1,5 +1,6 @@
 
 from random import randint
+print("Welcome to Blackjack!")
 print("-----------")
 print("YOUR TURN")
 print("-----------")
