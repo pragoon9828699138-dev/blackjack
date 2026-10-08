@@ -4,4 +4,5 @@ if hands == 1:
   print('You can hold ' + balls + ' balls in your hand!')
 else:
   print('You can hold ' + (balls * hands) + ' balls in your hands!')
+print("oop is hard")
 
